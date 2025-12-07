@@ -1,0 +1,23 @@
+class Dog:
+    # Class variable
+    animal = "Dog"
+
+    # Constructor
+    def __init__(self, breed, color):
+        self.breed = breed
+        self.color = color
+
+# Creating two dog objects
+dog1 = Dog("Labrador", "Golden")
+dog2 = Dog("German Shepherd", "Black")
+
+# Displaying details
+print("Dog 1 Details:")
+print("Animal:", Dog.animal)
+print("Breed:", dog1.breed)
+print("Color:", dog1.color)
+
+print("\nDog 2 Details:")
+print("Animal:", Dog.animal)
+print("Breed:", dog2.breed)
+print("Color:", dog2.color)
